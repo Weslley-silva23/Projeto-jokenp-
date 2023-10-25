@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>JokemPÔ</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>JokemPÔ</h1>
+        <div>
+            <button id="boxe" onclick="playhuman('pedra')">&#128074;</button>
+            <button id="tchau" onclick="playhuman('papel')">&#x1F590;</button>
+            <button id="salve" onclick="playhuman('tesoura')">&#x270C;</button>
+        </div>
+
+        <p class="result"></p>
+        <h3 class="minhapontuação">Minha pontuação: <span id="myscore">0</span> </h3>
+        <h3>Pontuação da alexa: <span id="score-machine">0</span></h3>
+    </div>
+
+
+</body>
+<script src="./script.js"></script>
+
+
+
+</html>
